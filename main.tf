@@ -11,7 +11,7 @@ provider "aws" {
  }
 
  resource "aws_s3_bucket" "terraform_state" {
-   bucket = "example-terraform-project-name-bootstrap-terraform-state"
+   bucket = "example-terraform-project-name-bootstrap-terraform-state-gilmar"
 
    versioning {
      enabled = true
