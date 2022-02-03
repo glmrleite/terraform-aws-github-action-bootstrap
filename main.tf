@@ -5,9 +5,9 @@ provider "aws" {
 
  terraform {
    backend "s3" {
-     bucket = "example-terraform-project-name-bootstrap-terraform-state"
+     bucket = "example-terraform-project-name-bootstrap-terraform-state-gilmar"
      key    = "default-infrastructure"
-     region = "eu-central-1"
+     region = "us-east-1"
    }
  }
 
