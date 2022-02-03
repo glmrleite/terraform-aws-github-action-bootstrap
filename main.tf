@@ -10,10 +10,10 @@ provider "aws" {
    }
  }
 
-#resource "aws_s3_bucket" "terraform_state" {
-#  bucket = "example-terraform-project-name-bootstrap-terraform-state"
-#
-#  versioning {
-#    enabled = true
-#  }
-#}
+ resource "aws_s3_bucket" "terraform_state" {
+   bucket = "example-terraform-project-name-bootstrap-terraform-state"
+
+   versioning {
+     enabled = true
+   }
+ }
